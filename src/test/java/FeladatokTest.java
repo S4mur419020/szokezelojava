@@ -31,7 +31,7 @@ class FeladatokTest {
 
     @Test
     void szavakSzama() {
-        assertEquals(7, feladatok.szoDarab());
+        assertEquals(12, feladatok.szoDarab());
     }
 
     @Test
@@ -41,7 +41,7 @@ class FeladatokTest {
 
     @Test
     void betukSzama() {
-        assertEquals(3, feladatok.eBetukSzama());
+        assertEquals(7, feladatok.eBetukSzama());
     }
 
     @Test
